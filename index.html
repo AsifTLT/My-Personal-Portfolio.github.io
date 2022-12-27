@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d919d15dea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <img src="images/logo (1).png" class="logo">
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Web Developer/Web Designer </p>
+                <h1> Hi, I'm <span> Asif </span> <br> from Bangladesh  </h1>
+            </div>
+        </div>
+    </div> 
+    <!-- ---------------about--------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/b1 (2).JPEG">
+                </div>    
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me</h1>
+                    <p> I am a Django Web Developer with almost 1 year of experience. Now, I'm working on Saifur's Noakhali Branch. I also completed more than 10+ projects.
+                        To enter a well organization in a suitable position having intention to work with honesty,
+                        sincerity and to learn, grow and eventually take greater responsibilities and face the
+                        challenges of the time gain experience. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link"onclick="opentab('skills')"> Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')"> Experience</p>
+                        <p class="tab-links"onclick="opentab('education')"> Education</p>
+                        
+                        </div>
+
+                        
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span> Web Devolopment </span><br> Python With Django </li>
+                            <li><span> Web Design </span><br> HTML/CSS/JavaScript </li>
+                            <li><span>Database Developer </span><br> MySQL/PostgreSQL/Oracle </li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span> Aug 2022 - Current </span><br> Microsoft Office Instructor at Saifur's Noakhali Branch </li>
+                            <li><span> Dec 2021 - July 2022 </span><br> Finance Associate at Metlife Alico </li>
+                            <li><span> Mar 2017 - Sep 2017 </span><br> Computer Operator at Cosmetic Freak Ltd. </li>
+                                 
+                        </ul>
+                    </div> 
+                    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span> 2018 - 2022 </span><br> Diploma-in-Computer Engineering Completed </li>
+                            <li><span> 2014 - 2016 </span><br> Secondary Certificate (S.S.C) Completed </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>       
+        </div>
+    </div>
+    <!-- ---------------Services--------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-wordpress"></i>
+                    <h2> Web Devolopment </h2>
+                    <p>
+                        Web development is the work involved in developing a website for the Internet or an intranet. 
+                        Web development can range from developing a simple single static page of plain text to complex web applications,
+                         electronic businesses, and social network services. </p>
+                         <a href="#"> Learn More </a>
+                    
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+
+                    <h2> Web Design </h2>
+                    <p>
+                        Web design refers to the design of websites that are displayed on the internet. 
+                        It usually refers to the user experience aspects of 
+                        website development rather than software development.</p>
+                         <a href="#"> Learn More </a>
+                    
+                </div>
+
+                <div>
+                    <i class="fa-regular fa-database"></i>
+                    <h2> Database Developer </h2>
+                    <p>
+                        A Database Developer is a Software Developer who specialises in the design and implementation of computer databases. 
+                        They commonly use programming languages 
+                        like C, Node, PHP, Python, SQL and Ruby to build or manage a database.</p>
+                         <a href="#"> Learn More </a>
+                    
+                </div>
+
+            </div> 
+
+        </div>
+    </div>
+<!-----------------portfolio----------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3> Delivery Service Apps  </h3>
+                    <p> Delivery is the process of transporting goods from a source location to a predefined destination. 
+                        Cargo (physical goods) is primarily delivered via roads and railroads on land, shipping lanes on the sea, 
+                        and airline networks in the air. 
+                        Certain types of goods may be delivered via specialized networks,  </p>
+                         <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3> E-Commerce Site </h3>
+                    <p> E-commerce helps create new job opportunities due to information related services, 
+                        software app and digital products. It also causes job losses.
+                         The areas with the greatest predicted job-loss are retail, postal, and travel agencies. </p>
+                         <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div><div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3> Student Management System  </h3>
+                    <p> A student information system, student management system, 
+                        school administration software or student administration system is a management information system for 
+                        education sector establishments used to manage student data. 
+                        It integrates students, parents, teachers and the administration </p>
+                         <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn"> See More </a>
+
+    </div>
+</div>
+<!-- ---------------Contact--------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me </h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> akonasif321@gmail.com</p>
+                <p> <i class="fa-solid fa-square-phone"></i> 01842328632</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/Mohammad.Asif17"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/asifprofie/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/asiftlt"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.behance.net/mdasif159"><i class="fa-brands fa-square-behance"></i></a>
+                    
+                </div>
+                <a href="images/my-cv.png" download class="btn btn2"> Download Cv </a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="E-mail" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Asif. Made With <i class="fa-solid fa-heart"></i> By The Life Tutorial</p>
+    </div>
+</div>
+         
+
+
+
+    <script> 
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for (tablink of tablinks){
+                    tablink.classlist.remove("active-link");
+                }
+                for (tabcontent of tabcontents){
+                    tabcontent.classlist.remove("active-tab");
+                }
+                event.currentTarget.classlist.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyOzE36t0sc-HvnRjOvfh1iY2Xh67zkG7BqKCVTus1x1YCNijIRw5EYGIgaDwl4_pY/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>                 
+</body>
+</html>                   
+
+
+                     
+                
+                
+
+                
+           
+        
+    
+    
+
+
+
+
+        
+    
+    
